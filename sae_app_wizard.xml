@@ -1,0 +1,31 @@
+<appwizard>
+<introduction>
+<name>酒家路</name>
+<author>苏酒_笑笑</author>
+<icon>favicon.ico</icon>
+<homepage>http://www.9jialu.com/</homepage>
+<description>
+<![CDATA[
+<p>酒家路微信管理后台，方便不会开发的人员自由配置自己的公共平台。</p>
+<p>主要功能：信息管理、自定义关键字回复、地理位置管理等。</p>
+         ]]>
+</description>
+</introduction>
+<platform>
+<services>
+<service name="wssfile"  params="public">Storage</service>
+<service>Mysql</service>
+</services>
+<appconfig>
+<tpl>
+<![CDATA[
+name: <<appname>>
+version: <<version>>
+             ]]>
+</tpl>
+</appconfig>
+</platform>
+<code>
+<initScript>sae/install.php</initScript>
+</code>
+</appwizard>

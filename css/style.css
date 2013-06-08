@@ -1,0 +1,395 @@
+/* -----
+	Author:			Mohammed Munawar Ahmed
+	Company:		Mobifreaks.com
+	Company URL:	http://www.mobifreaks.com
+	Mail Us:		support@mobifreaks.com 
+	License:		Creative Commons 3.0 Unported
+	License URL:	http://creativecommons.org/licenses/by/3.0/
+	
+	Attribution Required:
+	User should provide backlink to mobifreaks.com / source page from which you downloaded this mobile template [or] keep the link the text "Design by mobifreaks.com" on the footer
+	NOTE: links with relation no follow, no index will not be considered as a healthy backlink. link should be clickable and visible to naked eye.
+----- */
+/*
+fonts
+*/
+@font-face {
+    font-family: 'BebasRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+http://meyerweb.com/eric/tools/css/reset/
+v2.0|2011-01-26
+License:none(publicdomain)
+*/
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+.post,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+/*
+HTML5 element reset
+*/
+
+.post,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+	display:block;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1;
+}
+ol,ul{
+	list-style:none;
+}
+blockquote,q{
+	quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+	content:'';
+	content:none;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	text-decoration:none;
+}
+img{
+	max-width:100%;
+}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:18px;
+}
+h4{
+	font-size:16px;
+}
+h5{
+	font-size:14px;
+}
+h6{
+	font-size:12px;
+}
+/*
+wrapper
+
+.wrap{
+	width:320px;
+	margin:0 auto;
+}*/
+/*
+global classes
+*/
+.border-radius,
+.search input[type=text],
+.menu-show img,
+.menu-hide img{
+	-moz-border-radius:2em;
+	-webkit-border-radius:2em;
+	border-radius:2em;
+}
+.float-left,
+.menu-show,
+.menu-hide{
+	float:left;
+}
+.clear-both{
+	clear:both;
+}
+.pos-relative,
+.search{
+	position:relative;
+}
+/*
+header
+*/
+.header{
+	padding:10px 0;
+}
+.header{
+	background:#1d1d1d;
+}
+	.top-bar{
+		position:relative;
+		background:#2d2d2d;
+		border-bottom:1px solid #3d3d3d;
+		border-top:1px solid #3d3d3d;
+		padding:10px 0 0 0;
+	}
+	.menu-show,
+	.menu-hide{
+		display:none;
+		border:none;
+		color:#aaa;
+		cursor:pointer;
+		background:none;
+	}
+	.menu-show img,
+	.menu-hide img{
+		background:#fff;
+		padding:5px 15px;
+	}	
+	.menu{
+		border-top:1px solid #000;
+		display:block;
+		margin:10px 0 0 0;
+		font-size:14px;
+	}
+	.menu ul{
+		margin:0;
+		padding:0;
+	}
+	.menu li:nth-child(1) a{
+		border-top:none;
+	}
+	.menu a{
+		display:block;
+		padding:20px;
+		text-align:center;
+		border-top:1px solid #3d3d3d;
+		border-bottom:1px solid #000;
+		color:#5d5d5d;
+		background:#1d1d1d;
+		text-shadow:0 0 5px #000;
+		outline:none;
+	}
+	.menu a:hover{
+		/*background:#eee#00a8ff;
+		-moz-box-shadow:inset 0 5px 20px rgba(0,0,0,.5);
+		-webkit-box-shadow:inset 0 5px 20px rgba(0,0,0,.5);
+		box-shadow:inset 0 5px 20px rgba(0,0,0,.5);*/
+		color:#777;
+	}
+	.menu li:last-child a{
+	}
+	.menu li:first-child a{
+	}
+	.search{
+		float:right;
+		margin:0 5px 10px 0;
+	}
+	.search input[type=text]{
+		border:1px solid #3d3d3d;
+		width:120px;
+		padding:5px 25px 5px 10px;
+		color:#aaa;
+	}
+	.search input[type=submit]{
+		position:absolute;
+		right:3px;
+		top:4px;
+		background:url(../image/search-but.png) no-repeat;
+		width:20px;
+		height:20px;
+		border:none;
+		cursor:pointer;
+	}
+	.search input[type=text],
+	.search input[type=submit]{
+		outline:none;
+	}
+.logo{
+	background:#0d0d0d url(../image/header.png);
+	display:block;
+}
+.logo a{
+	display:block;
+	padding:5px;
+	text-align:center;
+}
+/*
+content
+*/
+.content{
+}
+.title h2{
+	border-top:1px solid #3d3d3d;
+	background:#1d1d1d;
+	padding:10px 20px;
+	font-size:24px;
+	color:#3d3d3d;
+}
+.post{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:20px;
+	color:#3d3d3d;
+	border-bottom:1px solid #eee;
+}
+.post-info{
+	line-height:1.3em;
+	font-size:10px;
+	color:#7d7d7d;
+}
+.post-info span{
+	color:#ddd;
+}
+.post-info a{
+}
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6{
+	font-family:'BebasRegular', Arial, sans-serif;
+	font-weight:normal;
+	line-height:1.3em;
+	word-spacing:.2em;
+	padding:0 0 10px 0;
+	background:none;
+}
+.post h1 a,
+.post h2 a,
+.post h3 a,
+.post h4 a,
+.post h5 a,
+.post h6 a{
+	display:block;
+}
+.post h1{
+	font-size:2.6em;
+}
+.post h2{
+	font-size:2em;
+}
+.post h3{
+	font-size:1.6em;
+}
+.post h4{
+	font-size:1.2em;
+}
+.post figure,
+.post dd,
+.post dt,
+.post pre,
+.post p{
+	padding:0 0 10px 0;
+}
+.post p,
+.post ol,
+.post ul,
+.post dd,
+.post figcaption,
+.column{
+	line-height:1.8em;
+}
+.post ol,ul{
+	margin:0 0 0 30px;
+	padding:10px;
+}
+.post ol{
+	list-style:decimal;
+}
+.post ul{
+	list-style:disc;
+}
+.post pre{
+}
+.post code{
+	font-family:"Courier New", Courier, monospace;
+	font-size:12px;
+	line-height:1.8em;
+}
+.post blockquote{
+	display:block;
+	border-left:1px dotted #7d7d7d;
+	margin:0 0 10px 0;
+}
+.post blockquote p{
+	padding:5px 10px;
+}
+.post blockquote p:first-letter{
+	float:left;
+	padding:10px 10px 0 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+}
+.post b,strong{
+	font-weight:bold;
+}
+.post em,
+.post i{
+	font-style:italic;
+}
+.post a{
+	color:#009cff;
+}
+.post a:hover{
+	color:#5d5d5d;
+}
+.post dl{
+}
+.post dt{
+	font-weight:bold;
+}
+.post dd{
+	margin:0 0 0 20px;
+}
+.post figure{
+	text-align:center;
+}
+.post figure img{
+	max-width:100%;
+}
+.post figcaption{
+	font-size:12px;
+	color:#8d8d8d;
+}
+/*
+footer
+*/
+.footer{
+	background:#2d2d2d;
+	text-align:center;
+	font-size:12px;
+	color:#7d7d7d;
+	line-height:1.8em;
+	padding:10px 0 0 0;
+}
+	.bot-bar{
+		font-size:10px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		position:relative;
+		background:#1d1d1d;
+		border-top:1px solid #3d3d3d;
+		padding:10px;
+		color:#aaa;
+	}
+.footer a{
+	color:#009cff;
+}
+.license{
+	display:inline-block;
+	text-align:center;
+	padding:10px 0;
+	opacity:.3;
+}
+.license:hover{
+	opacity:1;
+}
