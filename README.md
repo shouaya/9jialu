@@ -7,3 +7,6 @@ weixin backend admin platform base on SAE
 支持自定义关键字、自定义图文、自定义位置信息（可定制LBS服务）。
 基于新浪云、方便站长打造属于自己的公共平台。
 
+初始化帐号: admin@9jialu.com 密码:admin
+QQ群号：234271064
+
